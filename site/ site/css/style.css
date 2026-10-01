@@ -1,0 +1,18 @@
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;line-height:1.6;color:#222}
+header{position:sticky;top:0;background:#fff;border-bottom:1px solid #eee}
+nav{display:flex;justify-content:space-between;align-items:center;padding:1rem;max-width:1100px;margin:auto}
+nav ul{display:flex;list-style:none;gap:1rem}
+nav a{text-decoration:none;color:#0a5c5c;font-weight:bold}
+section{padding:3rem 1rem;max-width:1100px;margin:auto}
+h1{font-size:2rem;color:#0a5c5c}
+h2{color:#0a5c5c;margin-bottom:1.5rem}
+.grid{display:grid;grid-template-columns:1fr;gap:1rem}
+article{border:1px solid #ddd;padding:1rem;border-radius:12px;background:#fafafa}
+form{max-width:600px;display:flex;flex-direction:column;gap:0.8rem;background:#f9f9f9;padding:1.5rem;border-radius:12px}
+input,textarea{padding:0.8rem;border:1px solid #ccc;border-radius:8px}
+button{background:#0a5c5c;color:#fff;padding:0.8rem;border:none;border-radius:8px;cursor:pointer}
+footer{text-align:center;padding:2rem;background:#111;color:#fff;margin-top:2rem}
+span{color:red;font-size:0.8rem}
+@media(min-width:768px){.grid{grid-template-columns:1fr 1fr} h1{font-size:2.5rem}}
+@media(min-width:1024px){.grid{grid-template-columns:1fr 1fr 1fr}}
